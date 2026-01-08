@@ -25,7 +25,7 @@ const result = countVowel(string);
 
 console.log(result);
 
-// Problem 1: Palindrome
+// Problem 3: Palindrome
 
 const word = prompt('Enter the word:').toLowerCase();
 const reversedWord = word.split('').reverse().join('');
@@ -122,4 +122,5 @@ function pingPong() {
 }
 
 pingPong();
+
 
